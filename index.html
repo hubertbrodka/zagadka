@@ -1,0 +1,27 @@
+<html lang="pl"><head>
+	<meta charset="utf-8">
+    <title>JS innerHTML</title>
+<script>
+    function z1()
+    {
+        document.getElementById("z1").innerHTML="Też dwa";
+    }
+    function z2()
+    {
+        document.getElementById("z1").innerHTML="Tu znajdziesz odpowiedź";
+    }   
+</script>
+</head>
+<body style="background-color:aqua">
+<h2>Strona na lekcje</h2> 
+<h3>Zagadki logiczne:</h3>
+   <p>
+   Jeden kij ma dwa końce. Ile końców ma 2,5 kija?
+    </p>
+    <input type="button" value="zobacz odpowiedź" onclick="z1()">
+<br><br>
+<div id="z1">Też dwa</div>
+<br>
+<br>
+<input type="button" value="ukryj odpowiedź" onclick="z2()">
+</body></html>
